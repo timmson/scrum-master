@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+$my-color: #fd680e;
+
+.my-style {
+  color: $my-color;
+}
+
+.diagram {
+  width: 100%;
+  height: 600px;
+}
