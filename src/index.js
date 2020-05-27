@@ -60,7 +60,9 @@ Vue.component("diagram", {
 	template: "<div class=\"diagram\"></div>",
 	//props:,
 	mounted() {
-		const myDiagram = goJs(GoJs.Diagram, this.$el);
+		const myDiagram = goJs(GoJs.Diagram, this.$el, {
+			layout: goJs(GoJs.ForceDirectedLayout)
+		});
 		myDiagram.addDiagramListener("ObjectSingleClicked",
 			function (e) {
 				if (e.subject.part.ib.link !== undefined) {
@@ -70,7 +72,7 @@ Vue.component("diagram", {
 			});
 		myDiagram.model = new GoJs.GraphLinksModel(Map.nodes, Map.links);
 		myDiagram.nodeTemplate = nodeTemplate;
-		//myDiagram.isEnabled = false
+		myDiagram.isEnabled = false;
 	}
 });
 
