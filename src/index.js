@@ -39,7 +39,7 @@ let nodeTemplate =
 			toLinkableSelfNode: true,
 			toLinkableDuplicates: true
 		},
-		new goJs.Binding("fill", "color")
+		new GoJs.Binding("fill", "color")
 	),
 
 	goJs(GoJs.TextBlock,
