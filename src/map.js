@@ -4,7 +4,7 @@ module.exports = {
 		{key: 2, text: "Coaching", color: "lightgrey", link: "https://icf-russia.ru/"},
 		{key: 3, text: "Mentoring", color: "lightgrey", link: ""},
 		{key: 4, text: "Teaching", color: "lightgrey", link: ""},
-		{key: 5, text: "Mentoring", color: "lightgrey", link: ""},
+		{key: 5, text: "Facilitation", color: "lightgrey", link: ""},
 		{
 			key: 6,
 			text: "Product Mastery",

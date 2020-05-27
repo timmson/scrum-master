@@ -72,7 +72,7 @@ Vue.component("diagram", {
 			});
 		myDiagram.model = new GoJs.GraphLinksModel(Map.nodes, Map.links);
 		myDiagram.nodeTemplate = nodeTemplate;
-		myDiagram.isEnabled = false;
+		//myDiagram.isEnabled = false;
 	}
 });
 
