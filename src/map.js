@@ -18,7 +18,7 @@ module.exports = {
 			color: "orange",
 			link: "https://www.scrum.org/pathway/team-member-learning-path"
 		},
-		{key: 9, text: "Agile & Lean Mastery", color: "pink", link: "./transformation-mastery.md"}
+		{key: 9, text: "Agile & Lean Mastery", color: "pink", link: "./transformation-mastery"}
 
 	],
 	links: [

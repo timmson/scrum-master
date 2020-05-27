@@ -1,0 +1,20 @@
+{
+  "lang": "ru",
+  "checkYo": true,
+  "fileExtensions": [
+    ".md"
+  ],
+  "excludeFiles": [
+    ".git",
+    ".markdownlintrc",
+    "node_modules",
+    "original"
+  ],
+  "ignoreUppercase": true,
+  "ignoreUrls": true,
+  "ignoreCapitalization": true,
+  "ignoreText": [],
+  "dictionary": [
+        "Скрам.*"
+  ]
+}

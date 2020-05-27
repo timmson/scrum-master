@@ -24,8 +24,7 @@ jobs:
     - name: Lint and coverage
       run: |
         npm run lint
-        npm run coverage && codecov
-        npm run prod
+        npm run coverage
+        npm run check
       env:
         CI: true
-        CODECOV_TOKEN: 81c57d31-a6db-4c0b-9ab8-cd057bc4f299
