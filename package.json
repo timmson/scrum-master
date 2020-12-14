@@ -12,7 +12,7 @@
     "watch": "npx webpack --mode development --watch",
     "test": "npx mocha",
     "coverage": "npx nyc mocha && nyc report --reporter=text-lcov > coverage.lcov",
-    "start": "npm run check && npm run test && npx webpack --mode production"
+    "prod": "npm run check && npm run test && npx webpack --mode production"
   },
   "repository": {
     "type": "git",
