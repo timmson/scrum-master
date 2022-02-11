@@ -1,7 +1,5 @@
 const path = require("path");
-require("babel-polyfill");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
     entry: "./src/index.js",
@@ -12,25 +10,6 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(sa|sc|c)ss$/i,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    "css-loader",
-                    {
-                        loader: "postcss-loader",
-                        options: {
-                            plugins: function () { // post css plugins, can be exported to postcss.config.js
-                                return [
-                                    require("precss"),
-                                    require("autoprefixer")
-                                ];
-                            }
-                        }
-                    },
-                    "sass-loader"
-                ]
-            },
-            {
                 test: /\.m?js$/,
                 exclude: /node_modules/,
                 use: {
@@ -39,6 +18,14 @@ module.exports = {
                         presets: ["@babel/preset-env"]
                     }
                 }
+            },
+            {
+                test: /\.(sa|sc|c)ss$/i,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    "sass-loader"
+                ]
             }
         ]
     },
