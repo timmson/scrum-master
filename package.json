@@ -26,24 +26,24 @@
     "url": "https://github.com/timmson/scrum-master/issues"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "gojs": "^2.2.2",
+    "bootstrap": "^4.6.1",
+    "gojs": "^2.2.5",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
-    "@types/jest": "27.4.0",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.6.0",
-    "eslint": "^8.8.0",
-    "jest": "27.5.1",
-    "mini-css-extract-plugin": "^2.5.3",
+    "@types/jest": "^27.4.1",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.12.0",
+    "jest": "^27.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
     "node-sass": "^7.0.1",
     "postcss-loader": "^6.2.1",
-    "sass-loader": "^12.4.0",
-    "webpack": "^5.68.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
     "yaspeller": "^7.2.1"
   }
